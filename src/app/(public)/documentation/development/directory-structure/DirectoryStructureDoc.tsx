@@ -3,7 +3,7 @@ import FuseHighlight from '@fuse/core/FuseHighlight';
 
 /**
  * Directory Structure Doc
- * This document explains the directory structure and naming conventions used in the M.A. LDA Next.js project.
+ * This document explains the directory structure and naming conventions used in the Fuse React Next.js project.
  */
 function DirectoryStructureDoc() {
 	return (
@@ -18,7 +18,7 @@ function DirectoryStructureDoc() {
 				className="mb-16"
 				component="p"
 			>
-				This document explains the directory structure and naming conventions used in the M.A. LDA Nextjs
+				This document explains the directory structure and naming conventions used in the Fuse React Nextjs
 				project. The project follows a modular approach based on route settings determined from config files.
 				The directory structure and naming conventions are designed to make it easy to navigate and understand
 				the codebase.
@@ -58,7 +58,7 @@ function DirectoryStructureDoc() {
 				className="mb-16"
 				component="p"
 			>
-				The directory structure of this M.A. LDA Nextjs project is organized by feature and functionality,
+				The directory structure of this Fuse React Nextjs project is organized by feature and functionality,
 				with each major section having its own directory.
 			</Typography>
 			<Typography
@@ -126,7 +126,7 @@ function DirectoryStructureDoc() {
 				className="mb-16"
 				component="p"
 			>
-				This structure supports a modular and scalable approach to building complex applications with M.A. LDA
+				This structure supports a modular and scalable approach to building complex applications with Fuse React
 				Nextjs, incorporating features like authentication, internationalization, and various UI components
 				typical of an admin dashboard or control panel.
 			</Typography>

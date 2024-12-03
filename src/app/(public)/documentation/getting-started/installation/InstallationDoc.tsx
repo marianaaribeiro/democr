@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 
 /**
  * Installation Doc
- * This document provides information on how to install M.A. LDA.
+ * This document provides information on how to install Fuse React.
  */
 function InstallationDoc() {
 	return (
@@ -40,7 +40,7 @@ function InstallationDoc() {
 				className="mb-16"
 				component="p"
 			>
-				To install and use M.A. LDA, you will need{' '}
+				To install and use Fuse React, you will need{' '}
 				<a
 					href="https://nodejs.org/"
 					target="_blank"
@@ -82,7 +82,7 @@ function InstallationDoc() {
 				className="text-15 mt-24 mb-10 font-700"
 				variant="h6"
 			>
-				B. Installing M.A. LDA
+				B. Installing Fuse React
 			</Typography>
 
 			<Typography component="div">
@@ -110,10 +110,10 @@ function InstallationDoc() {
 							component="div"
 						>
 							<li>
-								M.A. LDA ViteJs Demo Project <b>Fuse-React-vx.x.x-vitejs-demo.zip</b>
+								Fuse React ViteJs Demo Project <b>Fuse-React-vx.x.x-vitejs-demo.zip</b>
 							</li>
 							<li>
-								M.A. LDA NextJs Demo Project <b>Fuse-React-vx.x.x-nextjs-demo.zip </b>
+								Fuse React NextJs Demo Project <b>Fuse-React-vx.x.x-nextjs-demo.zip </b>
 							</li>
 						</Typography>
 						<Typography
@@ -140,10 +140,10 @@ function InstallationDoc() {
 							component="div"
 						>
 							<li>
-								M.A. LDA ViteJs Skeleton Project <b>Fuse-React-vx.x.x-vitejs-skeleton.zip</b>
+								Fuse React ViteJs Skeleton Project <b>Fuse-React-vx.x.x-vitejs-skeleton.zip</b>
 							</li>
 							<li>
-								M.A. LDA NextJs Skeleton Project <b>Fuse-React-vx.x.x-nextjs-skeleton.zip</b>
+								Fuse React NextJs Skeleton Project <b>Fuse-React-vx.x.x-nextjs-skeleton.zip</b>
 							</li>
 						</Typography>
 						<Typography

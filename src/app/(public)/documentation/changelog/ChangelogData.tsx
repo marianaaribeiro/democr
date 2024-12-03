@@ -33,7 +33,7 @@ const changelogData: ChangelogItemType[] = [
 		version: '12.0.0',
 		date: '2024-10-21',
 		newChanges: [
-			'🚀 M.A. LDA Nextjs version launched!',
+			'🚀 Fuse React Nextjs version launched!',
 			'🎨 Material-UI (MUI) updated to v6+.',
 			'📚 Documentation layout updated with improved navigation and additional pages for better user experience.',
 			'🔐 Vitejs version: Authentication system refactored for easier configuration and better multi provider support.',
@@ -101,7 +101,7 @@ const changelogData: ChangelogItemType[] = [
 					variant="h6"
 					className="font-extrabold text-center"
 				>
-					M.A. LDA Nextjs version launched!
+					Fuse React Nextjs version launched!
 				</Typography>
 				<Typography
 					variant="body1"
@@ -301,7 +301,7 @@ const changelogData: ChangelogItemType[] = [
 						component="li"
 						className="leading-loose"
 					>
-						Starting with the latest skeleton version of M.A. LDA offers a pristine base, facilitating a
+						Starting with the latest skeleton version of Fuse React offers a pristine base, facilitating a
 						smoother transition of your codebase to the new version. This approach streamlines the process,
 						making it more straightforward and efficient.
 					</Typography>
@@ -349,7 +349,7 @@ const changelogData: ChangelogItemType[] = [
 						component="li"
 						className="leading-loose"
 					>
-						You may also want to consider starting with the latest skeleton version of M.A. LDA, which is
+						You may also want to consider starting with the latest skeleton version of Fuse React, which is
 						a clean slate, and then move your codebase to the new version. This can make the migration
 						process easier and more efficient.
 					</Typography>
@@ -498,7 +498,7 @@ const changelogData: ChangelogItemType[] = [
 						component="li"
 						className="leading-loose mb-16"
 					>
-						This is the new major version of the M.A. LDA and it's completely different from previous
+						This is the new major version of the Fuse React and it's completely different from previous
 						versions with no upgrade path.
 					</Typography>
 					<Typography
@@ -1181,8 +1181,8 @@ const changelogData: ChangelogItemType[] = [
 		],
 		fixedChanges: [
 			'react, react-dom are added to resolutions to prevent loading two versions of the react. +\n' +
-			"the issue's main reason is auth0-lock uses react as dependency not peerDependency and they don't change it with kinda valid reason\n" +
-			'(https://github.com/auth0/lock/issues/1148#issuecomment-336765301).',
+				"the issue's main reason is auth0-lock uses react as dependency not peerDependency and they don't change it with kinda valid reason\n" +
+				'(https://github.com/auth0/lock/issues/1148#issuecomment-336765301).',
 			'Calendar App Header updating issue fixed.'
 		]
 	},

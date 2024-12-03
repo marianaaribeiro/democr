@@ -9,13 +9,13 @@ function AuthenticationDoc() {
 				variant="h4"
 				className="mb-40 font-700"
 			>
-				Authentication in M.A. LDA with Next.js App Router
+				Authentication in Fuse React with Next.js App Router
 			</Typography>
 			<Typography
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA uses Auth.js (formerly NextAuth.js) for authentication management, integrated with Next.js
+				Fuse React uses Auth.js (formerly NextAuth.js) for authentication management, integrated with Next.js
 				13's App Router. Auth.js is a complete open-source authentication solution that works seamlessly with
 				Next.js applications.
 			</Typography>
@@ -90,7 +90,7 @@ export { handler as GET, handler as POST }
 				className="mb-16"
 				component="p"
 			>
-				In M.A. LDA, we've extended the default Auth.js session handling to include additional user data. When
+				In Fuse React, we've extended the default Auth.js session handling to include additional user data. When
 				a user logs in, we fetch additional user information from an API and add it to the session. This allows
 				us to store and access more detailed user information throughout the application.
 			</Typography>
@@ -159,7 +159,7 @@ declare module 'next-auth' {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA provides a custom <code>useUser</code> hook that simplifies access to user data and provides
+				Fuse React provides a custom <code>useUser</code> hook that simplifies access to user data and provides
 				utility functions for user management. This hook is built on top of Auth.js's <code>useSession</code>{' '}
 				hook and provides additional functionality.
 			</Typography>
@@ -251,7 +251,7 @@ function UserProfile() {
 				className="mt-32 mb-16"
 				component="p"
 			>
-				By leveraging the custom session handling and the <code>useUser</code> hook, M.A. LDA provides a
+				By leveraging the custom session handling and the <code>useUser</code> hook, Fuse React provides a
 				powerful and flexible way to manage user authentication and data throughout your application.
 			</Typography>
 			<Typography
@@ -281,7 +281,7 @@ function UserProfile() {
 				className="mt-32 mb-16"
 				component="p"
 			>
-				By leveraging Auth.js with Next.js App Router, M.A. LDA provides a robust, flexible, and secure
+				By leveraging Auth.js with Next.js App Router, Fuse React provides a robust, flexible, and secure
 				authentication system that integrates seamlessly with server components and can be easily customized to
 				meet your project's specific requirements.
 			</Typography>

@@ -13,19 +13,19 @@ function DocumentationSidebarHeader(props: DocumentationSidebarHeaderProps) {
 		<div className={clsx('flex items-center space-x-8', className)}>
 			<img
 				className="logo-icon h-32 w-32"
-				src="/assets/images/logo/logo1.png"
+				src="/assets/images/logo/logo.svg"
 				alt="logo"
 			/>
 			<div className="logo-text flex flex-col flex-auto">
-				<Typography className="text-2xl tracking-light font-semibold leading-none">A.</Typography>
+				<Typography className="text-2xl tracking-light font-semibold leading-none">FUSE</Typography>
 				<Typography
 					className="text-xl tracking-light font-bold leading-none"
 					color="primary"
 				>
-					LDA
+					DOCS
 				</Typography>
 			</div>
-			{/* <MainProjectSelection /> */}
+			<MainProjectSelection />
 		</div>
 	);
 }

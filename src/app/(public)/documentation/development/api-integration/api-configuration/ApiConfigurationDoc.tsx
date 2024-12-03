@@ -21,7 +21,7 @@ function ApiConfigurationDoc() {
 				className="mb-16"
 				component="p"
 			>
-				This document explains how to configure and use API routes in the M.A. LDA Next.js project.
+				This document explains how to configure and use API routes in the Fuse React Next.js project.
 			</Typography>
 
 			<Typography

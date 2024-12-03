@@ -19,7 +19,7 @@ function SignInPage() {
 				<CardContent className="mx-auto w-full max-w-320 sm:mx-0 sm:w-320">
 					<img
 						className="w-48"
-						src="/assets/images/logo/logo1.png"
+						src="/assets/images/logo/logo.svg"
 						alt="logo"
 					/>
 
@@ -46,7 +46,7 @@ function SignInPage() {
 							color: 'primary.dark'
 						}}
 					>
-						You are browsing <b>M.A. LDA Demo</b>. Click on the "Sign in" button to access the Demo and
+						You are browsing <b>Fuse React Demo</b>. Click on the "Sign in" button to access the Demo and
 						Documentation.
 					</Box>
 				</CardContent>

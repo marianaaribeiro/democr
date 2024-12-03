@@ -15,7 +15,7 @@ const Root = styled(FusePageSimple)(({ theme }) => ({
 }));
 
 /**
- * The OverviewPageLayoutsUI component provides an overview of M.A. LDA's page layouts.
+ * The OverviewPageLayoutsUI component provides an overview of Fuse React's page layouts.
  */
 function OverviewPageLayoutsUI() {
 	return (
@@ -35,7 +35,7 @@ function OverviewPageLayoutsUI() {
 					Introduction
 				</Typography>
 				<Typography paragraph>
-					Page layouts in M.A. LDA are pre-designed, customizable templates that serve as the foundation for
+					Page layouts in Fuse React are pre-designed, customizable templates that serve as the foundation for
 					your application's pages. They offer a balance between consistency and flexibility, allowing you to
 					rapidly develop user interfaces while maintaining a cohesive look and feel across your application.
 				</Typography>
@@ -70,7 +70,7 @@ function OverviewPageLayoutsUI() {
 					Using Page Layouts
 				</Typography>
 				<Typography paragraph>
-					M.A. LDA's page layouts are designed to be intuitive and easy to implement. Simply copy the
+					Fuse React's page layouts are designed to be intuitive and easy to implement. Simply copy the
 					desired layout component and customize it to fit your needs. This approach allows for rapid
 					prototyping and development while maintaining a consistent user interface across your application.
 				</Typography>

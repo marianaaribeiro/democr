@@ -20,7 +20,7 @@ function RTLSupportDoc() {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA supports Right-to-left languages such as Arabic, Persian or Hebrew, etc.
+				Fuse React supports Right-to-left languages such as Arabic, Persian or Hebrew, etc.
 			</Typography>
 
 			<Typography
@@ -50,7 +50,7 @@ function RTLSupportDoc() {
 				>
 					<code>stylis-plugin-rtl</code>
 				</a>{' '}
-				to support RTL feature of the M.A. LDA.
+				to support RTL feature of the Fuse React.
 			</Typography>
 
 			<Typography

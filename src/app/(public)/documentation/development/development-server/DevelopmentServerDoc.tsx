@@ -34,7 +34,7 @@ function DevelopmentServerDoc() {
 				className="mb-16"
 				component="p"
 			>
-				And that's it. The generator will take care of everything and will initiate the M.A. LDA server.
+				And that's it. The generator will take care of everything and will initiate the Fuse React server.
 			</Typography>
 
 			<Typography

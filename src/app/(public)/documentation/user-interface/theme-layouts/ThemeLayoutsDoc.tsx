@@ -89,7 +89,7 @@ function ThemeLayoutsDoc() {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA has a powerful layout system which allows you to configure and use a different layout per
+				Fuse React has a powerful layout system which allows you to configure and use a different layout per
 				route.
 			</Typography>
 
@@ -98,7 +98,7 @@ function ThemeLayoutsDoc() {
 				component="p"
 			>
 				Each route can have its own layout configuration meaning that it's very easy to have pages like login
-				page where there isn't any toolbar or navbar showing, without leaving the M.A. LDA.
+				page where there isn't any toolbar or navbar showing, without leaving the Fuse React.
 			</Typography>
 
 			<Typography

@@ -18,7 +18,7 @@ function ThemeSchemesDoc() {
 				className="mb-16"
 				component="p"
 			>
-				The M.A. LDA uses material-ui's theming by default. You can create theme color schemes with defining
+				The Fuse React uses material-ui's theming by default. You can create theme color schemes with defining
 				theme configuration objects.
 			</Typography>
 

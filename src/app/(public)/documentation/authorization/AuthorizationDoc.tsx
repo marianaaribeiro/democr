@@ -19,14 +19,14 @@ function AuthorizationDoc() {
 				variant="h4"
 				className="mb-40 font-700"
 			>
-				Authorization in M.A. LDA
+				Authorization in Fuse React
 			</Typography>
 
 			<Typography
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA implements a robust authorization system using Auth.js (formerly NextAuth.js) with custom
+				Fuse React implements a robust authorization system using Auth.js (formerly NextAuth.js) with custom
 				extensions to handle user roles and permissions. This system is primarily managed through the{' '}
 				<code>authJs.ts</code> file and the <code>useUser</code> hook.
 			</Typography>
@@ -125,7 +125,7 @@ function ProtectedComponent() {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA provides an <code>AuthGuardRedirect</code> component that allows you to implement route-level
+				Fuse React provides an <code>AuthGuardRedirect</code> component that allows you to implement route-level
 				authorization. This component can be used in layout files to restrict access to entire sections of your
 				application based on user roles.
 			</Typography>
@@ -241,7 +241,7 @@ function Layout({ children }) {
 				className="mt-32 mb-16"
 				component="p"
 			>
-				By leveraging the custom Auth.js configuration and the <code>useUser</code> hook, M.A. LDA provides a
+				By leveraging the custom Auth.js configuration and the <code>useUser</code> hook, Fuse React provides a
 				flexible and powerful authorization system that can be easily integrated into your application's
 				components and logic. Remember to always combine client-side authorization checks with server-side
 				validation to ensure the security of your application.

@@ -23,7 +23,7 @@ function MultiLanguageDoc() {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA uses{' '}
+				Fuse React uses{' '}
 				<a
 					href="https://react.i18next.com/"
 					target="_blank"
@@ -123,7 +123,7 @@ function MultiLanguageDoc() {
 				className="mb-16"
 				component="p"
 			>
-				To change the default language of the M.A. LDA, you need to change <code>lng</code> setting in the
+				To change the default language of the Fuse React, you need to change <code>lng</code> setting in the
 				file <code>@i18n/i18n.ts</code>
 			</Typography>
 
@@ -189,7 +189,7 @@ const handleLanguageChange = async (newLanguageId) => {
 				className="mb-16"
 				component="p"
 			>
-				M.A. LDA uses a custom I18nProvider to manage language settings and provide language-related
+				Fuse React uses a custom I18nProvider to manage language settings and provide language-related
 				functionality throughout the application. The I18nProvider is defined in{' '}
 				<code>@i18n/I18nProvider.tsx</code>.
 			</Typography>
