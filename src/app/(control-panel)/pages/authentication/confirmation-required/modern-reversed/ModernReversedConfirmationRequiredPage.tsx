@@ -6,43 +6,12 @@ import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 
 /**
- * The modern confirmation required page.
+ * The modern reversed confirmation required page.
  */
-function ModernConfirmationRequiredPage() {
+function ModernReversedConfirmationRequiredPage() {
 	return (
 		<div className="flex min-w-0 flex-auto flex-col items-center sm:justify-center md:p-32">
 			<Paper className="flex min-h-full w-full overflow-hidden rounded-0 sm:min-h-auto sm:w-auto sm:rounded-xl sm:shadow md:w-full md:max-w-6xl">
-				<div className="w-full px-16 py-32 ltr:border-r-1 rtl:border-l-1 sm:w-auto sm:p-48 md:p-64">
-					<div className="mx-auto w-full max-w-320 sm:mx-0 sm:w-320">
-						<img
-							className="w-48"
-							src="/assets/images/logo/logo.svg"
-							alt="logo"
-						/>
-
-						<Typography className="mt-32 text-4xl font-extrabold leading-tight tracking-tight">
-							Confirmation required
-						</Typography>
-						<Typography className="mt-16">
-							A confirmation mail with instructions has been sent to your email address. Follow those
-							instructions to confirm your email address and activate your account.
-						</Typography>
-
-						<Typography
-							className="mt-32 text-md font-medium"
-							color="text.secondary"
-						>
-							<span>Return to</span>
-							<Link
-								className="text-primary-500 ml-4 hover:underline"
-								to="/sign-in"
-							>
-								sign in
-							</Link>
-						</Typography>
-					</div>
-				</div>
-
 				<Box
 					className="relative hidden h-full flex-auto items-center justify-center overflow-hidden p-64 md:flex lg:px-112"
 					sx={{ backgroundColor: 'primary.dark', color: 'primary.contrastText' }}
@@ -137,9 +106,40 @@ function ModernConfirmationRequiredPage() {
 						</div>
 					</div>
 				</Box>
+
+				<div className="w-full px-16 py-32 ltr:border-l-1 rtl:border-r-1 sm:w-auto sm:p-48 md:p-64">
+					<div className="mx-auto w-full max-w-320 sm:mx-0 sm:w-320">
+						<img
+							className="w-48"
+							src="/assets/images/logo/logo.svg"
+							alt="logo"
+						/>
+
+						<Typography className="mt-32 text-4xl font-extrabold leading-tight tracking-tight">
+							Confirmation required
+						</Typography>
+						<Typography className="mt-16">
+							A confirmation mail with instructions has been sent to your email address. Follow those
+							instructions to confirm your email address and activate your account.
+						</Typography>
+
+						<Typography
+							className="mt-32 text-md font-medium"
+							color="text.secondary"
+						>
+							<span>Return to</span>
+							<Link
+								className="text-primary-500 ml-4 hover:underline"
+								to="/sign-in"
+							>
+								sign in
+							</Link>
+						</Typography>
+					</div>
+				</div>
 			</Paper>
 		</div>
 	);
 }
 
-export default ModernConfirmationRequiredPage;
+export default ModernReversedConfirmationRequiredPage;
